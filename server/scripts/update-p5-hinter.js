@@ -78,7 +78,7 @@ const reservedObjects = [
 ];
 
 axios
-  .get('https://p5js.org/reference/data.json')
+  .get('https://beta.p5js.org/reference/data.json')
   .then((response) => {
     const { data } = response;
 

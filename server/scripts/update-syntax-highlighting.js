@@ -2,7 +2,7 @@ const fs = require('fs');
 const process = require('process');
 const axios = require('axios');
 
-axios.get('https://p5js.org/reference/data.json').then((response) => {
+axios.get('https://beta.p5js.org/reference/data.json').then((response) => {
   const { data } = response;
 
   const arr = data.classitems;
